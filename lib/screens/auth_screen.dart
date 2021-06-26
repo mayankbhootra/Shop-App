@@ -163,6 +163,7 @@ class _AuthCardState extends State<AuthCard> {
       const errorMessage = 'Could not authenticate user. Please try again.';
       _showErrorDialog(errorMessage);
     }
+    
     setState(() {
       _isLoading = false;
     });
